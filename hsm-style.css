@@ -1,0 +1,42 @@
+section {
+    height: 100vh;
+    padding: 2vw;
+    font-size: 4vw;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section:first-of-type {
+    text-transform: uppercase;
+    font-size: 7vw;
+    background-image: url("/images/home.png");
+}
+
+section:nth-of-type(odd) {
+    text-shadow: 0 0 5px #000000e8;
+}
+
+section:nth-child(2) {
+    background-image: url("/images/hsm1-image.png");
+}
+
+section:nth-child(4) {
+    background-image: url("/images/hsm2-image.png");
+}
+
+section:nth-child(6) {
+    background-image: url("/images/hsm3-image.png");
+}
+
+section:nth-child(8) {
+    background-image: url("/images/wildcat.png");
+}
